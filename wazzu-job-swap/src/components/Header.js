@@ -1,8 +1,9 @@
 import React from 'react';
+import './../App.css';
 import './Header.css';
 import PersonIcon from '@mui/icons-material/Person';
 //import ChatBubbleIcon from '@mui/icons-material/ChatBubble';
-//import { IconButton } from '@mui/material';
+import { IconButton } from '@mui/material';
 
 function Header() {
     return (
