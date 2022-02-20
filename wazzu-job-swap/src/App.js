@@ -1,5 +1,6 @@
 import './App.css';
 import React from "react";
+import TinderCards from './components/TinderCards';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 //import Home from './components/Home'
 //import About from './components/About' 
@@ -17,7 +18,7 @@ function App() {
           </Route>
 
           <Route path="/">
-            <h2>home page</h2>
+            <TinderCards />
           </Route>
         </Switch>
       </Router>
